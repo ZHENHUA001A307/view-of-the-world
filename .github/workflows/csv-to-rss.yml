@@ -2,7 +2,7 @@ name: CSV to RSS
 
 on:
   schedule:
-    - cron: '0 6 * * 4'
+    - cron: '* * * * *'
   workflow_dispatch:
 
 concurrency:
